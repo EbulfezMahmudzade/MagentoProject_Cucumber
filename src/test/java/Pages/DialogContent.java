@@ -75,7 +75,7 @@ public class DialogContent extends ParentPage {
     }
     //****************************************************************//
 
-     @FindBy (id="firstname")
+    @FindBy (id="firstname")
     public WebElement FirstName;
 
     @FindBy (id="lastname")
@@ -166,7 +166,26 @@ public class DialogContent extends ParentPage {
     @FindBy (xpath = "//span[text()='Thank you for your purchase!']")
     public WebElement SuccessMsg;
 
+    //Us708 Elements
+    @FindBy(css = "[data-bind*='message.text']")
+    public WebElement messageText;
 
+    @FindBy(xpath = "//*[@id='wishlist-view-form']/div[1]")
+    public WebElement wishListNotEmpty;
+
+    @FindBy(xpath = "//img[@class='product-image-photo' and @alt='Radiant Tee']")
+    public WebElement wishListProduct;
+
+    public WebElement getWebElement(String strElementName) {
+        switch (strElementName.trim()){
+
+            case "messageText": return this.messageText;
+            case "wishListNotEmpty": return this.wishListNotEmpty;
+            case "wishListProduct": return this.wishListProduct;
+
+        }
+        return null;
+    }
 
 
 
@@ -176,4 +195,3 @@ public class DialogContent extends ParentPage {
 
 
 }
-
