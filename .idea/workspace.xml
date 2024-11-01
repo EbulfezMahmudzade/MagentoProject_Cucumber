@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="309da628-bb1d-4334-b583-916176fed36b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/RegisterSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/ParentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/ParentPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/LoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HeaderMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HeaderMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2o9bnEPh8FolWcnHi6yNNE6H2rD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,17 +58,18 @@
     "Cucumber Java.Scenario:  (1).executor": "Run",
     "Cucumber Java.Scenario: .executor": "Run",
     "Cucumber Java.Scenario: Add  selected product to cart.executor": "Run",
+    "Cucumber Java.Scenario: Add and Delete new Addresses.executor": "Run",
     "Cucumber Java.Scenario: Add randomly selected product to cart.executor": "Run",
     "Cucumber Java.Scenario: Create Multiple Accounts.executor": "Run",
     "Cucumber Java.Scenario: Login Successfully.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master705-706",
+    "git-widget-placeholder": "masterKadriye",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario:  (1)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Add and Delete new Addresses">
     <configuration name="Scenario:  (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/OrderProduct.feature" />
@@ -110,15 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Add randomly selected product to cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Add and Delete new Addresses" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/AddtoCart.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/AddAddresses.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MagentoProject_Cucumber" />
-      <option name="NAME_FILTER" value="^Add randomly selected product to cart$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add randomly selected product to cart$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add randomly selected product to cart" />
+      <option name="NAME_FILTER" value="^Add and Delete new Addresses$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add and Delete new Addresses$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add and Delete new Addresses" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -130,15 +130,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login Successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Add randomly selected product to cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/FeatureFiles/AddtoCart.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MagentoProject_Cucumber" />
-      <option name="NAME_FILTER" value="^Login Successfully$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login Successfully$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login Successfully" />
+      <option name="NAME_FILTER" value="^Add randomly selected product to cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add randomly selected product to cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add randomly selected product to cart" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Add and Delete new Addresses" />
         <item itemvalue="Cucumber Java.Scenario:  (1)" />
         <item itemvalue="Cucumber Java.Scenario: Add  selected product to cart" />
         <item itemvalue="Cucumber Java.Scenario: Add randomly selected product to cart" />
         <item itemvalue="Cucumber Java.Scenario: " />
-        <item itemvalue="Cucumber Java.Scenario: Login Successfully" />
       </list>
     </recent_temporary>
   </component>
