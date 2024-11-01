@@ -166,14 +166,72 @@ public class DialogContent extends ParentPage {
     @FindBy (xpath = "//span[text()='Thank you for your purchase!']")
     public WebElement SuccessMsg;
 
+    @FindBy(xpath = "(//button[@class='action switch'])[1]")
+    public WebElement CustomerMenuDropDown;
+
+    @FindBy(xpath = "//span[text()='Add New Address']")
+    public WebElement AddNewAddressButton;
+
+    @FindBy(xpath = "//input[@id='telephone']")
+    public WebElement TelephoneInput703;
+
+    @FindBy(xpath = "//input[@id='street_1']")
+    public WebElement Street703;
+
+    @FindBy(xpath = "//input[@id='city']")
+    public WebElement City703;
+
+    @FindBy(xpath = "//select[@id='region_id']")
+    public WebElement State703;
+
+    @FindBy(xpath = "//input[@id='zip']")
+    public WebElement Zip703;
+
+    @FindBy(xpath = "//span[text()='Save Address']")
+    public WebElement SaveAddressButton703;
+
+    @FindBy(xpath = "//input[@id='primary_billing']")
+    public WebElement DefaultBilling703;
+
+    @FindBy(xpath = "//input[@id='primary_shipping']")
+    public WebElement DefaultShipping703;
+
+    @FindBy(xpath = "//span[text()='Delete']")
+    public WebElement DeleteButton703;
+
+    @FindBy(xpath = "//span[text()='OK']")
+    public WebElement DeleteOk703;
 
 
+    public WebElement getWebElement(String strElementName) {
+        switch (strElementName.trim()) {
+            case "AddNewAddressButton":
+                return this.AddNewAddressButton;
+            case "Telephone703":
+                return this.TelephoneInput703;
+            case "Street703":
+                return this.Street703;
+            case "City703":
+                return this.City703;
+            case "Region703":
+                return this.State703;
+            case "Zip703":
+                return this.Zip703;
+            case "SaveAddressButton703":
+                return this.SaveAddressButton703;
+            case "DefaultBilling703":
+                return this.DefaultBilling703;
+            case "DefaultShipping703":
+                return this.DefaultShipping703;
+            case "DeleteButton703":
+                return this.DeleteButton703;
+            case "DeleteOk703":
+                return this.DeleteOk703;
+        }
+        return null;
+    }
 
 
+    }
 
-
-
-
-
-}
 
